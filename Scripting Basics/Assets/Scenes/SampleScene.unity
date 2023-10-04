@@ -319,6 +319,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1627670160}
   - component: {fileID: 1627670159}
+  - component: {fileID: 1627670161}
   m_Layer: 0
   m_Name: Variables
   m_TagString: Untagged
@@ -338,6 +339,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 66718591b43ccac4096c80a6348d36af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cheese: {fileID: 0}
+  speed: 20
+  score: 0
+  playerName: Stanley
+  _isPlayerActive: 1
 --- !u!4 &1627670160
 Transform:
   m_ObjectHideFlags: 0
@@ -353,6 +359,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1627670161
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1627670158}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4b95d6c3ca9f5a4f922bfa07c4a1df0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
