@@ -11,7 +11,7 @@ public class FunctionsAndMethods : MonoBehaviour
     //declare our Variables
     private AudioSource _audioSource;
     private float _speed = 10f;
-    public float _playerHealthAmount = 12f;
+    private int _playerHealthAmount = 100;
 
     // Start is called before the first frame update
     void Start()
